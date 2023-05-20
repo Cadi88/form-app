@@ -10,7 +10,7 @@ import { RequestsService } from '../requests.service';
 export class MyFormComponent implements OnInit {
   myForm: FormGroup = new FormGroup({});
 
-  jokes = '';
+  joke = '';
 
   constructor(
     private fb: FormBuilder,

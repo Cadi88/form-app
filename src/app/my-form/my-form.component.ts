@@ -29,7 +29,7 @@ export class MyFormComponent implements OnInit {
 
   onSubmit() {
     this.requestsService.getJokes().subscribe((data) => {
-      this.jokes = data.value;
+      this.joke = data.value;
     });
   }
 }
